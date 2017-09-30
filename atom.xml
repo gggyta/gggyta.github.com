@@ -42,21 +42,42 @@
   </entry>
   
   <entry>
+    <title>Hello World</title>
+    <link href="http://gggyta./2017/09/30/hello-world/"/>
+    <id>http://gggyta./2017/09/30/hello-world/</id>
+    <published>2017-09-30T02:29:51.110Z</published>
+    <updated>2016-05-23T04:10:51.387Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Github下载指定目录下文件</title>
     <link href="http://gggyta./2016/06/08/Github%E4%B8%8B%E8%BD%BD%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6/"/>
     <id>http://gggyta./2016/06/08/Github下载指定目录下文件/</id>
     <published>2016-06-08T03:58:44.000Z</published>
     <updated>2016-06-08T04:34:58.340Z</updated>
     
-    <content type="html"><![CDATA[<ol><li>&#x5BFC;&#x822A;&#x5230;github&#x9700;&#x8981;&#x4E0B;&#x8F7D;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x76EE;&#x5F55;&#x4E0B;.</li><li>&#x7C98;&#x53D6;&#x51FA;&#x7F51;&#x9875;url<br>&#x4F8B;&#x5982;: <a href="https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper" target="_blank" rel="external">https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper</a></li><li>&#x5C06;tree/master &#x6539;&#x4E3A;trunk</li><li>&#x5230;&#x672C;&#x5730;PC&#x673A;&#x4EFB;&#x610F;&#x6587;&#x4EF6;&#x5939;&#x4E2D;,&#x70B9;&#x51FB;&#x53F3;&#x952E;&#x7528;svn checkout&#x2026;<br>&#x5C31;&#x53EF;&#x5C06;&#x6307;&#x5B9A;&#x6587;&#x4EF6;copy&#x5230;&#x672C;&#x5730;&#x7535;&#x8111;<br><a href="https://github.com/dongjunkun/DropDownMenu/trunk/gradle/wrapper" target="_blank" rel="external">https://github.com/dongjunkun/DropDownMenu/trunk/gradle/wrapper</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li>导航到github需要下载的文件夹目录下.</li><li>粘取出网页url<br>例如: <a href="https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper" target="_blank" rel="external">https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper</a></li><li>将tree/master 改为trunk</li><li>到本地PC机任意文件夹中,点击右键用svn checkout…<br>就可将指定文件copy到本地电脑<br><a href="https://github.com/dongjunkun/DropDownMenu/trunk/gradle/wrapper" target="_blank" rel="external">https://github.com/dongjunkun/DropDownMenu/trunk/gradle/wrapper</a></li></ol>]]></content>
     
     <summary type="html">
     
       
       
         &lt;ol&gt;
-&lt;li&gt;&amp;#x5BFC;&amp;#x822A;&amp;#x5230;github&amp;#x9700;&amp;#x8981;&amp;#x4E0B;&amp;#x8F7D;&amp;#x7684;&amp;#x6587;&amp;#x4EF6;&amp;#x5939;&amp;#x76EE;&amp;#x5F55;&amp;#x4E0B;.&lt;/li&gt;
-&lt;li&gt;&amp;#
+&lt;li&gt;导航到github需要下载的文件夹目录下.&lt;/li&gt;
+&lt;li&gt;粘取出网页url&lt;br&gt;例如: &lt;a href=&quot;https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper&quot; targ
       
     
     </summary>
@@ -75,21 +96,21 @@
     <published>2016-05-27T01:58:44.000Z</published>
     <updated>2016-05-27T06:20:49.216Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><h2 id="&#x6B65;&#x9AA4;"><a href="#&#x6B65;&#x9AA4;" class="headerlink" title="&#x6B65;&#x9AA4;"></a>&#x6B65;&#x9AA4;</h2></blockquote><ol><li>&#x8BBE;&#x7F6E;(setting) -&gt; tools -&gt; External Tools </li><li>&#x70B9;&#x51FB;+ , &#x5728;Edit Tool &#x7A97;&#x53E3;&#x8F93;&#x5165;&#x5982;&#x4E0B;:</li></ol><table><thead><tr><th style="text-align:left">&#x53C2;&#x6570;&#x540D;</th><th style="text-align:left">&#x53C2;&#x6570;&#x503C;</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Name</strong></td><td style="text-align:left">classfolder</td></tr><tr><td style="text-align:left"><strong>Description</strong></td><td style="text-align:left">open .java file &#x2018;s classfolder in window explorer</td></tr><tr><td style="text-align:left"><strong>program</strong></td><td style="text-align:left">explorer</td></tr></tbody></table><p><strong>Parameters</strong>  :<br>/select,$OutputPath$\$FileDirRelativeToSourcepath$\$FileNameWithoutAllExtensions$.class </p><a id="more"></a><p><img src="/2016/05/27/Intellij&#x6253;&#x5F00;java&#x6587;&#x4EF6;&#x5BF9;&#x5E94;&#x7684;class&#x6587;&#x4EF6;/Image.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2></blockquote><ol><li>设置(setting) -&gt; tools -&gt; External Tools </li><li>点击+ , 在Edit Tool 窗口输入如下:</li></ol><table><thead><tr><th style="text-align:left">参数名</th><th style="text-align:left">参数值</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Name</strong></td><td style="text-align:left">classfolder</td></tr><tr><td style="text-align:left"><strong>Description</strong></td><td style="text-align:left">open .java file ‘s classfolder in window explorer</td></tr><tr><td style="text-align:left"><strong>program</strong></td><td style="text-align:left">explorer</td></tr></tbody></table><p><strong>Parameters</strong>  :<br>/select,$OutputPath$\$FileDirRelativeToSourcepath$\$FileNameWithoutAllExtensions$.class </p><a id="more"></a><p><img src="Intellij打开java文件对应的class文件/Image.png" alt=""></p>]]></content>
     
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;h2 id=&quot;&amp;#x6B65;&amp;#x9AA4;&quot;&gt;&lt;a href=&quot;#&amp;#x6B65;&amp;#x9AA4;&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x6B65;&amp;#x9AA4;&quot;&gt;&lt;/a&gt;&amp;#x6B65;&amp;#x9AA4;&lt;/h2&gt;&lt;/blockquote&gt;
+&lt;h2 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot; class=&quot;headerlink&quot; title=&quot;步骤&quot;&gt;&lt;/a&gt;步骤&lt;/h2&gt;&lt;/blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;&amp;#x8BBE;&amp;#x7F6E;(setting) -&amp;gt; tools -&amp;gt; External Tools &lt;/li&gt;
-&lt;li&gt;&amp;#x70B9;&amp;#x51FB;+ , &amp;#x5728;Edit Tool &amp;#x7A97;&amp;#x53E3;&amp;#x8F93;&amp;#x5165;&amp;#x5982;&amp;#x4E0B;:&lt;/li&gt;
+&lt;li&gt;设置(setting) -&amp;gt; tools -&amp;gt; External Tools &lt;/li&gt;
+&lt;li&gt;点击+ , 在Edit Tool 窗口输入如下:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&quot;text-align:left&quot;&gt;&amp;#x53C2;&amp;#x6570;&amp;#x540D;&lt;/th&gt;
-&lt;th style=&quot;text-align:left&quot;&gt;&amp;#x53C2;&amp;#x6570;&amp;#x503C;&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;参数名&lt;/th&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;参数值&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -99,7 +120,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:left&quot;&gt;open .java file &amp;#x2018;s classfolder in window explorer&lt;/td&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;open .java file ‘s classfolder in window explorer&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:left&quot;&gt;&lt;strong&gt;program&lt;/strong&gt;&lt;/td&gt;
@@ -115,27 +136,6 @@
     
     
       <category term="intellij" scheme="http://gggyta./tags/intellij/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://gggyta./2016/05/23/hello-world/"/>
-    <id>http://gggyta./2016/05/23/hello-world/</id>
-    <published>2016-05-23T04:10:51.384Z</published>
-    <updated>2016-05-23T04:10:51.387Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
