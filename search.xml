@@ -18,15 +18,15 @@
 <p><strong>在安装时遇到问题windows hexo: command not found</strong><br>环境变量PATH添加hexo的路径就行了<br>D:\myblog\node_modules\hexo\bin\hexo</p>
 </blockquote>
 <ol>
-<li>blog生成</li>
-</ol>
+<li><p>blog生成</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">第一次使用hexo，在本地创建服务器使用。</div><div class="line"><span class="comment"># 生成静态页面</span></div><div class="line">hexo generate</div><div class="line"><span class="comment"># 开启本地服务器</span></div><div class="line">hexo s</div></pre></td></tr></table></figure>
-<ol>
-<li>部署hexo<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">输入下面的命令将hexo博客部署到github中：</div><div class="line"># 清空静态页面</div><div class="line">hexo clean</div><div class="line"># 生成静态页面</div><div class="line">hexo generate</div><div class="line"># 部署 </div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+</li>
+<li><p>部署hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">输入下面的命令将hexo博客部署到github中：</div><div class="line"># 清空静态页面</div><div class="line">hexo clean</div><div class="line"># 生成静态页面</div><div class="line">hexo generate</div><div class="line"># 部署 </div><div class="line">hexo deploy</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h4 id="hexo命令缩写"><a href="#hexo命令缩写" class="headerlink" title="hexo命令缩写"></a>hexo命令缩写</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo支持命令缩写，如下所示。hexo g等价于hexo generate</div><div class="line">hexo g：hexo generate</div><div class="line">hexo c：hexo clean</div><div class="line">hexo s：hexo server</div><div class="line">hexo d：hexo deploy</div></pre></td></tr></table></figure>
-<h4 id="hexo组合命令"><a href="#hexo组合命令" class="headerlink" title="hexo组合命令"></a>hexo组合命令</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 清除、生成、启动</span></div><div class="line">hexo clean &amp;&amp; hexo g -s</div><div class="line"><span class="comment"># 清除、生成、部署</span></div><div class="line">hexo clean &amp;&amp; hexo g -d</div></pre></td></tr></table></figure>
+<h4 id="hexo命令缩写"><a href="#hexo命令缩写" class="headerlink" title="hexo命令缩写"></a>hexo命令缩写</h4>  <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">hexo支持命令缩写，如下所示。hexo g等价于hexo generate</div><div class="line">hexo g：hexo generate</div><div class="line">hexo c：hexo clean</div><div class="line">hexo s：hexo server</div><div class="line">hexo d：hexo deploy</div></pre></td></tr></table></figure>
+<h4 id="hexo组合命令"><a href="#hexo组合命令" class="headerlink" title="hexo组合命令"></a>hexo组合命令</h4>  <figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 清除、生成、启动</span></div><div class="line">hexo clean &amp;&amp; hexo g -s</div><div class="line"><span class="comment"># 清除、生成、部署</span></div><div class="line">hexo clean &amp;&amp; hexo g -d</div></pre></td></tr></table></figure>
 <ol>
 <li>个性化配置<br>在D:/myblog下 用配置好的_config.yml文件去替换默认的_config.yml文件</li>
 </ol>
