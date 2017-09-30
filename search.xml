@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[页面跳转]]></title>
+      <url>/2017/09/30/%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC/</url>
+      <content type="html"><![CDATA[<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">jumpPackage:<span class="function"><span class="keyword">function</span> (<span class="params">subpLoginNo,regionCode,cityCode,subpUnitNo</span>) </span>&#123;</div><div class="line">	$.post(<span class="string">"views/modules/custsubpackmanage/custPackageAdjust.jsp"</span>,</div><div class="line">		&#123; <span class="string">"subpLoginNo"</span>: subpLoginNo,<span class="string">"regionCode"</span>:regionCode,<span class="string">"cityCode"</span>:cityCode,<span class="string">"subpUnitNo"</span>:subpUnitNo,<span class="string">"jumpflag"</span>:<span class="string">"1"</span>&#125;,</div><div class="line">		<span class="function"><span class="keyword">function</span>(<span class="params">data,status</span>) </span>&#123;</div><div class="line">			<span class="keyword">if</span>(data == <span class="literal">null</span>)&#123;</div><div class="line">				<span class="keyword">return</span>;</div><div class="line">			&#125;</div><div class="line">			<span class="keyword">if</span> (status == <span class="string">"success"</span>) &#123;</div><div class="line">				$(<span class="string">".page-content"</span>).html(data);</div><div class="line">			&#125;</div><div class="line"></div><div class="line">	&#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+      
+        <categories>
+            
+            <category> js </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> js </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Github下载指定目录下文件]]></title>
+      <url>/2016/06/08/Github%E4%B8%8B%E8%BD%BD%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6/</url>
+      <content type="html"><![CDATA[<ol>
+<li>&#x5BFC;&#x822A;&#x5230;github&#x9700;&#x8981;&#x4E0B;&#x8F7D;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x76EE;&#x5F55;&#x4E0B;.</li>
+<li>&#x7C98;&#x53D6;&#x51FA;&#x7F51;&#x9875;url<br>&#x4F8B;&#x5982;: <a href="https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper" target="_blank" rel="external">https://github.com/dongjunkun/DropDownMenu/tree/master/gradle/wrapper</a></li>
+<li>&#x5C06;tree/master &#x6539;&#x4E3A;trunk</li>
+<li>&#x5230;&#x672C;&#x5730;PC&#x673A;&#x4EFB;&#x610F;&#x6587;&#x4EF6;&#x5939;&#x4E2D;,&#x70B9;&#x51FB;&#x53F3;&#x952E;&#x7528;svn checkout&#x2026;<br>&#x5C31;&#x53EF;&#x5C06;&#x6307;&#x5B9A;&#x6587;&#x4EF6;copy&#x5230;&#x672C;&#x5730;&#x7535;&#x8111;<br><a href="https://github.com/dongjunkun/DropDownMenu/trunk/gradle/wrapper" target="_blank" rel="external">https://github.com/dongjunkun/DropDownMenu/trunk/gradle/wrapper</a></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> git </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Intellij打开java文件对应的class文件]]></title>
+      <url>/2016/05/27/Intellij%E6%89%93%E5%BC%80java%E6%96%87%E4%BB%B6%E5%AF%B9%E5%BA%94%E7%9A%84class%E6%96%87%E4%BB%B6/</url>
+      <content type="html"><![CDATA[<blockquote>
+<h2 id="&#x6B65;&#x9AA4;"><a href="#&#x6B65;&#x9AA4;" class="headerlink" title="&#x6B65;&#x9AA4;"></a>&#x6B65;&#x9AA4;</h2></blockquote>
+<ol>
+<li>&#x8BBE;&#x7F6E;(setting) -&gt; tools -&gt; External Tools </li>
+<li>&#x70B9;&#x51FB;+ , &#x5728;Edit Tool &#x7A97;&#x53E3;&#x8F93;&#x5165;&#x5982;&#x4E0B;:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;&#x540D;</th>
+<th style="text-align:left">&#x53C2;&#x6570;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Name</strong></td>
+<td style="text-align:left">classfolder</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Description</strong></td>
+<td style="text-align:left">open .java file &#x2018;s classfolder in window explorer</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>program</strong></td>
+<td style="text-align:left">explorer</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Parameters</strong>  :<br>/select,$OutputPath$\$FileDirRelativeToSourcepath$\$FileNameWithoutAllExtensions$.class </p>
+<a id="more"></a>
+<p><img src="/2016/05/27/Intellij&#x6253;&#x5F00;java&#x6587;&#x4EF6;&#x5BF9;&#x5E94;&#x7684;class&#x6587;&#x4EF6;/Image.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> intellij </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> intellij </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>/2016/05/23/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
