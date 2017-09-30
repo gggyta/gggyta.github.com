@@ -48,26 +48,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[页面跳转]]></title>
-      <url>/2017/09/30/%E9%A1%B5%E9%9D%A2%E8%B7%B3%E8%BD%AC/</url>
-      <content type="html"><![CDATA[<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">jumpPackage:<span class="function"><span class="keyword">function</span> (<span class="params">subpLoginNo,regionCode,cityCode,subpUnitNo</span>) </span>&#123;</div><div class="line">	$.post(<span class="string">"views/modules/custsubpackmanage/custPackageAdjust.jsp"</span>,</div><div class="line">		&#123; <span class="string">"subpLoginNo"</span>: subpLoginNo,<span class="string">"regionCode"</span>:regionCode,<span class="string">"cityCode"</span>:cityCode,<span class="string">"subpUnitNo"</span>:subpUnitNo,<span class="string">"jumpflag"</span>:<span class="string">"1"</span>&#125;,</div><div class="line">		<span class="function"><span class="keyword">function</span>(<span class="params">data,status</span>) </span>&#123;</div><div class="line">			<span class="keyword">if</span>(data == <span class="literal">null</span>)&#123;</div><div class="line">				<span class="keyword">return</span>;</div><div class="line">			&#125;</div><div class="line">			<span class="keyword">if</span> (status == <span class="string">"success"</span>) &#123;</div><div class="line">				$(<span class="string">".page-content"</span>).html(data);</div><div class="line">			&#125;</div><div class="line"></div><div class="line">	&#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> js </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> js </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Github下载指定目录下文件]]></title>
       <url>/2016/06/08/Github%E4%B8%8B%E8%BD%BD%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6/</url>
       <content type="html"><![CDATA[<ol>
