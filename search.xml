@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title></title>
+      <title><![CDATA[HEXO安装]]></title>
       <url>/2017/09/30/%E5%AE%89%E8%A3%85HEXO/</url>
       <content type="html"><![CDATA[<ol>
 <li>安装git和node.js</li>
@@ -32,6 +32,18 @@
 </ol>
 ]]></content>
       
+        <categories>
+            
+            <category> blog </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
         
     </entry>
     
